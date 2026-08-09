@@ -14,7 +14,7 @@ Desde el **[mapa](https://goyogramadors.github.io/corazonasalvo/)** puedes:
 - **Confirmar** que uno del mapa sigue en su lugar
 - **Avisar que ya no está** o que la ubicación es incorrecta
 
-También puedes mandarlo por [Instagram](https://instagram.com/corazonasalvo).
+También puedes mandarlo por [Instagram](https://instagram.com/cora_zona_salvo).
 
 ### Qué hace útil a un reporte
 

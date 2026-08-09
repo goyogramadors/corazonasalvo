@@ -94,7 +94,7 @@ def convertir(ruta_kml):
 
     return {
         "type": "FeatureCollection",
-        "name": "DEA reportados por la comunidad (Instagram @corazonasalvo)",
+        "name": "DEA reportados por la comunidad (Instagram @cora_zona_salvo)",
         "features": rasgos,
     }
 

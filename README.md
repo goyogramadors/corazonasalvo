@@ -11,7 +11,7 @@ Este repositorio contiene esa base de datos, abierta y descargable por
 cualquiera.
 
 🗺️ **[Ver el mapa](https://goyogramadors.github.io/corazonasalvo/)** ·
-📸 **[Instagram @corazonasalvo](https://instagram.com/corazonasalvo)** ·
+📸 **[Instagram @cora_zona_salvo](https://instagram.com/cora_zona_salvo)** ·
 📥 **[Descargar los datos](datos/dea-chile.geojson)**
 
 ---
@@ -24,7 +24,7 @@ tres fuentes independientes:
 | Fuente | Aporta | Puntos únicos | Confirma otros |
 |---|---|---:|---:|
 | Registro oficial SEREMI de Salud | Recintos que declararon su DEA por ley | 3.451 | — |
-| Comunidad (Instagram @corazonasalvo) | Fotos y ubicaciones enviadas por personas | **313** | 572 |
+| Comunidad (Instagram @cora_zona_salvo) | Fotos y ubicaciones enviadas por personas | **313** | 572 |
 | OpenStreetMap Chile | Mapeo colaborativo previo | 40 | 18 |
 
 Tres cosas que solo se ven al cruzar las fuentes:
@@ -48,7 +48,7 @@ No necesitas saber programar ni tener cuenta de GitHub.
 ### 1. Reportar un desfibrilador que viste
 
 La forma más simple: **[envía el reporte desde el mapa](https://goyogramadors.github.io/corazonasalvo/)**
-o mándanos la foto por [Instagram](https://instagram.com/corazonasalvo).
+o mándanos la foto por [Instagram](https://instagram.com/cora_zona_salvo).
 
 Lo que necesitamos: una **foto del DEA**, el **lugar** donde está, y sobre todo
 una **referencia precisa** de dónde encontrarlo ("en el pasillo de cajas, al
@@ -127,7 +127,7 @@ esté presente, operativo o accesible en un momento dado.
 ## Créditos
 
 Proyecto iniciado y mantenido por [@goyogramadors](https://github.com/goyogramadors),
-con los aportes de la comunidad de [@corazonasalvo](https://instagram.com/corazonasalvo).
+con los aportes de la comunidad de [@cora_zona_salvo](https://instagram.com/cora_zona_salvo).
 
 Fuentes de datos: SEREMI de Salud / MINSAL (registro público de DEA),
 colaboradores de OpenStreetMap, y las personas que fotografiaron cada uno de
