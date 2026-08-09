@@ -1,0 +1,106 @@
+name: "📍 Reportar un desfibrilador nuevo"
+description: "Viste un DEA que no está en el mapa. Cuéntanos dónde."
+title: "[Nuevo DEA] "
+labels: ["nuevo-dea", "por-revisar"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por aportar. Rellena lo que puedas: **aunque no tengas todos los
+        datos, el reporte sirve igual**.
+
+        Si prefieres no usar GitHub, puedes enviarlo desde
+        [el mapa](https://goyogramadors.github.io/corazonasalvo/) o por
+        [Instagram](https://instagram.com/corazonasalvo).
+
+  - type: input
+    id: lugar
+    attributes:
+      label: ¿En qué lugar está?
+      description: Nombre del recinto, lo más completo posible.
+      placeholder: "Mall Plaza Vespucio, Estación Metro Baquedano, Liceo A-12..."
+    validations:
+      required: true
+
+  - type: input
+    id: direccion
+    attributes:
+      label: Dirección y comuna
+      placeholder: "Av. Vicuña Mackenna 7110, La Florida"
+    validations:
+      required: true
+
+  - type: textarea
+    id: referencia
+    attributes:
+      label: ¿Dónde exactamente dentro del lugar?
+      description: |
+        El dato más importante del reporte. En una emergencia, saber que "hay un
+        DEA en el mall" no sirve; saber que está "en el primer piso, junto a
+        informaciones" sí.
+      placeholder: "Primer piso, pasillo central, en la muralla frente a la farmacia, dentro de una caja verde con alarma."
+    validations:
+      required: true
+
+  - type: input
+    id: coordenadas
+    attributes:
+      label: Coordenadas (opcional)
+      description: |
+        Si puedes, mantén presionado el punto en Google Maps y copia las
+        coordenadas que aparecen.
+      placeholder: "-33.4172, -70.6073"
+
+  - type: textarea
+    id: foto
+    attributes:
+      label: Foto del desfibrilador
+      description: |
+        Arrastra la imagen a este campo. Al enviarla autorizas su publicación
+        bajo CC BY-SA 4.0. Procura que no aparezcan personas identificables.
+
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de recinto
+      options:
+        - Comercio (mall, supermercado, tienda)
+        - Educacional (colegio, universidad)
+        - Salud (hospital, clínica, cesfam)
+        - Metro
+        - Terminal de transporte (buses, aeropuerto, puerto)
+        - Recinto deportivo (gimnasio, estadio, piscina)
+        - Hotel o alojamiento
+        - Cine, teatro o centro cultural
+        - Edificio institucional o público
+        - Otro
+    validations:
+      required: true
+
+  - type: dropdown
+    id: acceso
+    attributes:
+      label: ¿Se puede acceder libremente?
+      options:
+        - "Sí, está a la vista y accesible"
+        - "Está a la vista pero en una caja cerrada o con alarma"
+        - "Hay que pedirlo en recepción o a un guardia"
+        - "No lo sé"
+    validations:
+      required: true
+
+  - type: input
+    id: horario
+    attributes:
+      label: ¿En qué horario se puede acceder? (opcional)
+      placeholder: "24/7, o el horario del mall (10:00 a 21:00)"
+
+  - type: checkboxes
+    id: confirmaciones
+    attributes:
+      label: Antes de enviar
+      options:
+        - label: Vi este desfibrilador personalmente (no lo copié de otra lista)
+          required: true
+        - label: La foto es mía y autorizo publicarla bajo CC BY-SA 4.0
+          required: false

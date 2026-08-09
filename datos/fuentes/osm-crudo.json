@@ -1,0 +1,768 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-09T02:36:36Z",
+    "timestamp_areas_base": "2026-08-08T01:53:06Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 5683584759,
+  "lat": -33.4456918,
+  "lon": -70.7435910,
+  "tags": {
+    "addr:city": "Pudahuel",
+    "addr:housenumber": "8444",
+    "addr:street": "Avenida San Pablo",
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5683584760,
+  "lat": -33.4486188,
+  "lon": -70.7422934,
+  "tags": {
+    "emergency": "defibrillator",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 5683584761,
+  "lat": -33.4456230,
+  "lon": -70.7508430,
+  "tags": {
+    "addr:city": "Pudahuel",
+    "addr:housenumber": "8605",
+    "addr:street": "El Cobre",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "phone": "227809846 - 98720150"
+  }
+},
+{
+  "type": "node",
+  "id": 5683584762,
+  "lat": -33.4412566,
+  "lon": -70.7537955,
+  "tags": {
+    "addr:city": "Pudahuel",
+    "addr:housenumber": "962",
+    "addr:street": "Avenida La Estrella",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 5683584763,
+  "lat": -33.4377674,
+  "lon": -70.7520495,
+  "tags": {
+    "access": "permissive",
+    "addr:city": "Pudahuel",
+    "addr:housenumber": "1101",
+    "addr:street": "Avenida La Estrella",
+    "defibrillator:location": "Dentro de sala urgencias",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "phone": "226497325/26433027"
+  }
+},
+{
+  "type": "node",
+  "id": 6264487788,
+  "lat": -35.8182729,
+  "lon": -70.8202990,
+  "tags": {
+    "emergency": "defibrillator"
+  }
+},
+{
+  "type": "node",
+  "id": 6754374761,
+  "lat": -30.1968985,
+  "lon": -71.4294328,
+  "tags": {
+    "emergency": "defibrillator"
+  }
+},
+{
+  "type": "node",
+  "id": 7128453627,
+  "lat": -51.0272445,
+  "lon": -73.0255210,
+  "tags": {
+    "addr:country": "CL",
+    "emergency": "defibrillator",
+    "fixme": "Correcciones masivas de nombres con mayúsculas",
+    "name": "AED"
+  }
+},
+{
+  "type": "node",
+  "id": 9077246955,
+  "lat": -33.4442468,
+  "lon": -70.6231048,
+  "tags": {
+    "emergency": "defibrillator",
+    "indoor": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 9588529758,
+  "lat": -33.0248335,
+  "lon": -71.5647339,
+  "tags": {
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9588529760,
+  "lat": -33.0249753,
+  "lon": -71.5639126,
+  "tags": {
+    "access": "permissive",
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9738773860,
+  "lat": -36.8251747,
+  "lon": -73.0477351,
+  "tags": {
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9769789658,
+  "lat": -33.3653898,
+  "lon": -70.6924618,
+  "tags": {
+    "emergency": "defibrillator",
+    "indoor": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10590335305,
+  "lat": -23.6447922,
+  "lon": -70.4036735,
+  "tags": {
+    "emergency": "defibrillator"
+  }
+},
+{
+  "type": "node",
+  "id": 10800195088,
+  "lat": -33.0711289,
+  "lon": -71.5503183,
+  "tags": {
+    "emergency": "defibrillator"
+  }
+},
+{
+  "type": "node",
+  "id": 11203340037,
+  "lat": -33.7245950,
+  "lon": -70.6743153,
+  "tags": {
+    "emergency": "defibrillator"
+  }
+},
+{
+  "type": "node",
+  "id": 11224783337,
+  "lat": -33.3656768,
+  "lon": -70.7288060,
+  "tags": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "-1"
+  }
+},
+{
+  "type": "node",
+  "id": 11224804252,
+  "lat": -33.3666152,
+  "lon": -70.7194799,
+  "tags": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "-1"
+  }
+},
+{
+  "type": "node",
+  "id": 11224804254,
+  "lat": -33.3651530,
+  "lon": -70.7054853,
+  "tags": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "-1"
+  }
+},
+{
+  "type": "node",
+  "id": 11287161601,
+  "lat": -33.3966594,
+  "lon": -70.7915209,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11287161602,
+  "lat": -33.3964780,
+  "lon": -70.7912231,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11287161607,
+  "lat": -33.3968610,
+  "lon": -70.7931436,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11287161612,
+  "lat": -33.3963047,
+  "lon": -70.7932247,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11384461646,
+  "lat": -33.5828799,
+  "lon": -70.6764830,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Metro S.A.",
+    "start_date": "2023-11-27"
+  }
+},
+{
+  "type": "node",
+  "id": 11387845461,
+  "lat": -33.5706279,
+  "lon": -70.6736215,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Metro S.A."
+  }
+},
+{
+  "type": "node",
+  "id": 11387882950,
+  "lat": -33.5605942,
+  "lon": -70.6701250,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Metro de Santiago"
+  }
+},
+{
+  "type": "node",
+  "id": 11387883707,
+  "lat": -33.5464703,
+  "lon": -70.6669119,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Metro S.A."
+  }
+},
+{
+  "type": "node",
+  "id": 11395021971,
+  "lat": -33.4626521,
+  "lon": -70.6066981,
+  "tags": {
+    "access": "permit",
+    "defibrillator:location": "Desfribiladores ubucados en el Nivel -1 (Servicios) y Nivel -2 (Intermedio)",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Metro S.A."
+  }
+},
+{
+  "type": "node",
+  "id": 11650686510,
+  "lat": -33.3997269,
+  "lon": -70.7914126,
+  "tags": {
+    "defibrillator:location": "A la izquierda de los baños",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 12109244672,
+  "lat": -33.4300604,
+  "lon": -70.6359300,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "ParqueMet"
+  }
+},
+{
+  "type": "node",
+  "id": 12109244673,
+  "lat": -33.4265502,
+  "lon": -70.6334850,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "ParqueMet"
+  }
+},
+{
+  "type": "node",
+  "id": 12109244674,
+  "lat": -33.4290270,
+  "lon": -70.6350836,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "ParqueMet"
+  }
+},
+{
+  "type": "node",
+  "id": 12109244675,
+  "lat": -33.4305103,
+  "lon": -70.6339517,
+  "tags": {
+    "access": "permit",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "ParqueMet"
+  }
+},
+{
+  "type": "node",
+  "id": 12109669284,
+  "lat": -33.4277566,
+  "lon": -70.6382486,
+  "tags": {
+    "access": "permit",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "ParqueMet"
+  }
+},
+{
+  "type": "node",
+  "id": 12125665490,
+  "lat": -33.4153306,
+  "lon": -70.6175403,
+  "tags": {
+    "access": "permit",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "ParqueMet"
+  }
+},
+{
+  "type": "node",
+  "id": 12125665491,
+  "lat": -33.4162033,
+  "lon": -70.6231266,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "ParqueMet"
+  }
+},
+{
+  "type": "node",
+  "id": 12125665492,
+  "lat": -33.4157445,
+  "lon": -70.6235779,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "ParqueMet"
+  }
+},
+{
+  "type": "node",
+  "id": 12125665493,
+  "lat": -33.4137230,
+  "lon": -70.6205634,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "ParqueMet"
+  }
+},
+{
+  "type": "node",
+  "id": 12125665494,
+  "lat": -33.4135718,
+  "lon": -70.6144694,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "ParqueMet"
+  }
+},
+{
+  "type": "node",
+  "id": 12125665495,
+  "lat": -33.3999051,
+  "lon": -70.6200440,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "ParqueMet"
+  }
+},
+{
+  "type": "node",
+  "id": 12125665496,
+  "lat": -33.3882546,
+  "lon": -70.6016752,
+  "tags": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "ParqueMet"
+  }
+},
+{
+  "type": "node",
+  "id": 12404908302,
+  "lat": -47.7977023,
+  "lon": -73.5353027,
+  "tags": {
+    "emergency": "defibrillator"
+  }
+},
+{
+  "type": "node",
+  "id": 12405330801,
+  "lat": -47.8052760,
+  "lon": -73.5451647,
+  "tags": {
+    "defibrillator:location": "It's in a hut exclusively for that defibrillator, small and wooden (and locked...)",
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12452705846,
+  "lat": -22.4499120,
+  "lon": -68.9290315,
+  "tags": {
+    "emergency": "defibrillator"
+  }
+},
+{
+  "type": "node",
+  "id": 12466036370,
+  "lat": -50.8658948,
+  "lon": -72.8929601,
+  "tags": {
+    "emergency": "defibrillator"
+  }
+},
+{
+  "type": "node",
+  "id": 12466072479,
+  "lat": -51.2590421,
+  "lon": -72.3440727,
+  "tags": {
+    "emergency": "defibrillator"
+  }
+},
+{
+  "type": "node",
+  "id": 12466076423,
+  "lat": -50.9321477,
+  "lon": -73.1342575,
+  "tags": {
+    "emergency": "defibrillator"
+  }
+},
+{
+  "type": "node",
+  "id": 12466082566,
+  "lat": -54.9343992,
+  "lon": -67.6069960,
+  "tags": {
+    "emergency": "defibrillator"
+  }
+},
+{
+  "type": "node",
+  "id": 12466083738,
+  "lat": -54.9349640,
+  "lon": -67.6041156,
+  "tags": {
+    "emergency": "defibrillator"
+  }
+},
+{
+  "type": "node",
+  "id": 12466083741,
+  "lat": -50.9653883,
+  "lon": -72.8634253,
+  "tags": {
+    "emergency": "defibrillator"
+  }
+},
+{
+  "type": "node",
+  "id": 12817250669,
+  "lat": -33.3963260,
+  "lon": -70.7904662,
+  "tags": {
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13283121203,
+  "lat": -23.5764223,
+  "lon": -70.3829037,
+  "tags": {
+    "access": "yes",
+    "check_date": "2025-11-05",
+    "defibrillator:location:es": "Colegio Técnico Industrial Don Bosco",
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13287187380,
+  "lat": -33.4784191,
+  "lon": -70.6651174,
+  "tags": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Metro S.A."
+  }
+},
+{
+  "type": "node",
+  "id": 13287754218,
+  "lat": -33.4993258,
+  "lon": -70.6157752,
+  "tags": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Metro S.A."
+  }
+},
+{
+  "type": "node",
+  "id": 13288406307,
+  "lat": -33.4674842,
+  "lon": -70.6247676,
+  "tags": {
+    "addr:floor": "1",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Metro S.A."
+  }
+},
+{
+  "type": "node",
+  "id": 13288406308,
+  "lat": -33.4675469,
+  "lon": -70.6253307,
+  "tags": {
+    "addr:floor": "1",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Metro S.A."
+  }
+},
+{
+  "type": "node",
+  "id": 13288406309,
+  "lat": -33.4675451,
+  "lon": -70.6253114,
+  "tags": {
+    "addr:floor": "-3",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "-3",
+    "operator": "Metro S.A."
+  }
+},
+{
+  "type": "node",
+  "id": 13314251301,
+  "lat": -33.4442221,
+  "lon": -70.6321417,
+  "tags": {
+    "access": "customers",
+    "defibrillator:location": "Centro educación ACHS",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "AChS"
+  }
+},
+{
+  "type": "node",
+  "id": 13314251401,
+  "lat": -33.4442221,
+  "lon": -70.6321417,
+  "tags": {
+    "access": "customers",
+    "defibrillator:location": "Centro educación ACHS",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "AChS"
+  }
+},
+{
+  "type": "node",
+  "id": 13395071155,
+  "lat": -27.1022858,
+  "lon": -70.8526270,
+  "tags": {
+    "emergency": "defibrillator",
+    "indoor": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13456615951,
+  "lat": -33.3994805,
+  "lon": -70.7897895,
+  "tags": {
+    "defibrillator:location": "A la derecha de los baños",
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13653558554,
+  "lat": -38.7380637,
+  "lon": -72.5896001,
+  "tags": {
+    "defibrillator:location": "En el pasillo central, al costado del pilar del lado sur adyacente a tienda Marriet.",
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13721172529,
+  "lat": -38.7406329,
+  "lon": -72.6228381,
+  "tags": {
+    "defibrillator:location": "Entrando desde las puertas de boletería, mano izquierda en el primer muro.",
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13722450585,
+  "lat": -33.4289630,
+  "lon": -70.6345809,
+  "tags": {
+    "emergency": "defibrillator"
+  }
+},
+{
+  "type": "node",
+  "id": 13783710794,
+  "lat": -33.3692194,
+  "lon": -71.6692314,
+  "tags": {
+    "defibrillator:location": "Dentro del pasillo principal al lado de la Sala de Emergencia.",
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13853613688,
+  "lat": -38.9273378,
+  "lon": -72.6470058,
+  "tags": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 13946356836,
+  "lat": -38.7293420,
+  "lon": -72.5998537,
+  "tags": {
+    "emergency": "defibrillator",
+    "indoor": "yes"
+  }
+}
+
+  ]
+}

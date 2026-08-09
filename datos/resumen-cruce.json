@@ -1,0 +1,24 @@
+{
+ "fuentes": {
+  "oficial:seremi-minsal": {
+   "total": 3990,
+   "nuevos": 3451,
+   "confirman_otra_fuente": 0,
+   "duplicados_internos": 539
+  },
+  "comunidad:instagram": {
+   "total": 904,
+   "nuevos": 313,
+   "confirman_otra_fuente": 572,
+   "duplicados_internos": 19
+  },
+  "osm": {
+   "total": 67,
+   "nuevos": 40,
+   "confirman_otra_fuente": 18,
+   "duplicados_internos": 9
+  }
+ },
+ "total": 3804,
+ "multifuente": 585
+}

@@ -1,0 +1,34 @@
+name: Validar datos
+
+on:
+  push:
+    paths:
+      - "datos/**"
+      - "scripts/**"
+  pull_request:
+    paths:
+      - "datos/**"
+      - "scripts/**"
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validar el dataset
+        run: python scripts/validar_datos.py
+
+      - name: Comprobar que el cruce es reproducible
+        run: |
+          cp datos/dea-chile.geojson /tmp/anterior.geojson
+          python scripts/03_cruzar_fuentes.py
+          if ! diff -q /tmp/anterior.geojson datos/dea-chile.geojson > /dev/null; then
+            echo "::error::El dataset publicado no coincide con el que generan los scripts."
+            echo "Corre 'python scripts/03_cruzar_fuentes.py' y súbelo con tus cambios."
+            exit 1
+          fi

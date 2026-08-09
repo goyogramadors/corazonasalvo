@@ -1,0 +1,1949 @@
+{
+ "type": "FeatureCollection",
+ "name": "DEA en OpenStreetMap - Chile",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.743591,
+     -33.4456918
+    ]
+   },
+   "properties": {
+    "id": "osm-5683584759",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/5683584759",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.7422934,
+     -33.4486188
+    ]
+   },
+   "properties": {
+    "id": "osm-5683584760",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "24/7",
+    "osm_id": "node/5683584760",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.750843,
+     -33.445623
+    ]
+   },
+   "properties": {
+    "id": "osm-5683584761",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "24/7",
+    "osm_id": "node/5683584761",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.7537955,
+     -33.4412566
+    ]
+   },
+   "properties": {
+    "id": "osm-5683584762",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "24/7",
+    "osm_id": "node/5683584762",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.7520495,
+     -33.4377674
+    ]
+   },
+   "properties": {
+    "id": "osm-5683584763",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "Dentro de sala urgencias",
+    "acceso": "permissive",
+    "horario": "24/7",
+    "osm_id": "node/5683584763",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.820299,
+     -35.8182729
+    ]
+   },
+   "properties": {
+    "id": "osm-6264487788",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/6264487788",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.4294328,
+     -30.1968985
+    ]
+   },
+   "properties": {
+    "id": "osm-6754374761",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/6754374761",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.025521,
+     -51.0272445
+    ]
+   },
+   "properties": {
+    "id": "osm-7128453627",
+    "categoria": "dea",
+    "nombre": "AED",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/7128453627",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6231048,
+     -33.4442468
+    ]
+   },
+   "properties": {
+    "id": "osm-9077246955",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/9077246955",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.5647339,
+     -33.0248335
+    ]
+   },
+   "properties": {
+    "id": "osm-9588529758",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/9588529758",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.5639126,
+     -33.0249753
+    ]
+   },
+   "properties": {
+    "id": "osm-9588529760",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "permissive",
+    "horario": "",
+    "osm_id": "node/9588529760",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.0477351,
+     -36.8251747
+    ]
+   },
+   "properties": {
+    "id": "osm-9738773860",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/9738773860",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6924618,
+     -33.3653898
+    ]
+   },
+   "properties": {
+    "id": "osm-9769789658",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/9769789658",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.4036735,
+     -23.6447922
+    ]
+   },
+   "properties": {
+    "id": "osm-10590335305",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/10590335305",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.5503183,
+     -33.0711289
+    ]
+   },
+   "properties": {
+    "id": "osm-10800195088",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/10800195088",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6743153,
+     -33.724595
+    ]
+   },
+   "properties": {
+    "id": "osm-11203340037",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/11203340037",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.728806,
+     -33.3656768
+    ]
+   },
+   "properties": {
+    "id": "osm-11224783337",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/11224783337",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.7194799,
+     -33.3666152
+    ]
+   },
+   "properties": {
+    "id": "osm-11224804252",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/11224804252",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.7054853,
+     -33.365153
+    ]
+   },
+   "properties": {
+    "id": "osm-11224804254",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/11224804254",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.7915209,
+     -33.3966594
+    ]
+   },
+   "properties": {
+    "id": "osm-11287161601",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/11287161601",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.7912231,
+     -33.396478
+    ]
+   },
+   "properties": {
+    "id": "osm-11287161602",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/11287161602",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.7931436,
+     -33.396861
+    ]
+   },
+   "properties": {
+    "id": "osm-11287161607",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/11287161607",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.7932247,
+     -33.3963047
+    ]
+   },
+   "properties": {
+    "id": "osm-11287161612",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/11287161612",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.676483,
+     -33.5828799
+    ]
+   },
+   "properties": {
+    "id": "osm-11384461646",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/11384461646",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6736215,
+     -33.5706279
+    ]
+   },
+   "properties": {
+    "id": "osm-11387845461",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/11387845461",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.670125,
+     -33.5605942
+    ]
+   },
+   "properties": {
+    "id": "osm-11387882950",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/11387882950",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6669119,
+     -33.5464703
+    ]
+   },
+   "properties": {
+    "id": "osm-11387883707",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/11387883707",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6066981,
+     -33.4626521
+    ]
+   },
+   "properties": {
+    "id": "osm-11395021971",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "Desfribiladores ubucados en el Nivel -1 (Servicios) y Nivel -2 (Intermedio)",
+    "acceso": "permit",
+    "horario": "",
+    "osm_id": "node/11395021971",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.7914126,
+     -33.3997269
+    ]
+   },
+   "properties": {
+    "id": "osm-11650686510",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "A la izquierda de los baños",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/11650686510",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.63593,
+     -33.4300604
+    ]
+   },
+   "properties": {
+    "id": "osm-12109244672",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/12109244672",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.633485,
+     -33.4265502
+    ]
+   },
+   "properties": {
+    "id": "osm-12109244673",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/12109244673",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6350836,
+     -33.429027
+    ]
+   },
+   "properties": {
+    "id": "osm-12109244674",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/12109244674",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6339517,
+     -33.4305103
+    ]
+   },
+   "properties": {
+    "id": "osm-12109244675",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "permit",
+    "horario": "",
+    "osm_id": "node/12109244675",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6382486,
+     -33.4277566
+    ]
+   },
+   "properties": {
+    "id": "osm-12109669284",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "permit",
+    "horario": "",
+    "osm_id": "node/12109669284",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6175403,
+     -33.4153306
+    ]
+   },
+   "properties": {
+    "id": "osm-12125665490",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "permit",
+    "horario": "",
+    "osm_id": "node/12125665490",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6231266,
+     -33.4162033
+    ]
+   },
+   "properties": {
+    "id": "osm-12125665491",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/12125665491",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6235779,
+     -33.4157445
+    ]
+   },
+   "properties": {
+    "id": "osm-12125665492",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/12125665492",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6205634,
+     -33.413723
+    ]
+   },
+   "properties": {
+    "id": "osm-12125665493",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/12125665493",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6144694,
+     -33.4135718
+    ]
+   },
+   "properties": {
+    "id": "osm-12125665494",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/12125665494",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.620044,
+     -33.3999051
+    ]
+   },
+   "properties": {
+    "id": "osm-12125665495",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/12125665495",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6016752,
+     -33.3882546
+    ]
+   },
+   "properties": {
+    "id": "osm-12125665496",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/12125665496",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.5353027,
+     -47.7977023
+    ]
+   },
+   "properties": {
+    "id": "osm-12404908302",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/12404908302",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.5451647,
+     -47.805276
+    ]
+   },
+   "properties": {
+    "id": "osm-12405330801",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "It's in a hut exclusively for that defibrillator, small and wooden (and locked...)",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/12405330801",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -68.9290315,
+     -22.449912
+    ]
+   },
+   "properties": {
+    "id": "osm-12452705846",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/12452705846",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.8929601,
+     -50.8658948
+    ]
+   },
+   "properties": {
+    "id": "osm-12466036370",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/12466036370",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.3440727,
+     -51.2590421
+    ]
+   },
+   "properties": {
+    "id": "osm-12466072479",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/12466072479",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.1342575,
+     -50.9321477
+    ]
+   },
+   "properties": {
+    "id": "osm-12466076423",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/12466076423",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.606996,
+     -54.9343992
+    ]
+   },
+   "properties": {
+    "id": "osm-12466082566",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/12466082566",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67.6041156,
+     -54.934964
+    ]
+   },
+   "properties": {
+    "id": "osm-12466083738",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/12466083738",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.8634253,
+     -50.9653883
+    ]
+   },
+   "properties": {
+    "id": "osm-12466083741",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/12466083741",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.7904662,
+     -33.396326
+    ]
+   },
+   "properties": {
+    "id": "osm-12817250669",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/12817250669",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.3829037,
+     -23.5764223
+    ]
+   },
+   "properties": {
+    "id": "osm-13283121203",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "yes",
+    "horario": "",
+    "osm_id": "node/13283121203",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": "2025-11-05"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6651174,
+     -33.4784191
+    ]
+   },
+   "properties": {
+    "id": "osm-13287187380",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/13287187380",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6157752,
+     -33.4993258
+    ]
+   },
+   "properties": {
+    "id": "osm-13287754218",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/13287754218",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6247676,
+     -33.4674842
+    ]
+   },
+   "properties": {
+    "id": "osm-13288406307",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/13288406307",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6253307,
+     -33.4675469
+    ]
+   },
+   "properties": {
+    "id": "osm-13288406308",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/13288406308",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6253114,
+     -33.4675451
+    ]
+   },
+   "properties": {
+    "id": "osm-13288406309",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/13288406309",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6321417,
+     -33.4442221
+    ]
+   },
+   "properties": {
+    "id": "osm-13314251301",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "Centro educación ACHS",
+    "acceso": "customers",
+    "horario": "",
+    "osm_id": "node/13314251301",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6321417,
+     -33.4442221
+    ]
+   },
+   "properties": {
+    "id": "osm-13314251401",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "Centro educación ACHS",
+    "acceso": "customers",
+    "horario": "",
+    "osm_id": "node/13314251401",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.852627,
+     -27.1022858
+    ]
+   },
+   "properties": {
+    "id": "osm-13395071155",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/13395071155",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.7897895,
+     -33.3994805
+    ]
+   },
+   "properties": {
+    "id": "osm-13456615951",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "A la derecha de los baños",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/13456615951",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.5896001,
+     -38.7380637
+    ]
+   },
+   "properties": {
+    "id": "osm-13653558554",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "En el pasillo central, al costado del pilar del lado sur adyacente a tienda Marriet.",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/13653558554",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.6228381,
+     -38.7406329
+    ]
+   },
+   "properties": {
+    "id": "osm-13721172529",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "Entrando desde las puertas de boletería, mano izquierda en el primer muro.",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/13721172529",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.6345809,
+     -33.428963
+    ]
+   },
+   "properties": {
+    "id": "osm-13722450585",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/13722450585",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.6692314,
+     -33.3692194
+    ]
+   },
+   "properties": {
+    "id": "osm-13783710794",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "Dentro del pasillo principal al lado de la Sala de Emergencia.",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/13783710794",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.6470058,
+     -38.9273378
+    ]
+   },
+   "properties": {
+    "id": "osm-13853613688",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/13853613688",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.5998537,
+     -38.729342
+    ]
+   },
+   "properties": {
+    "id": "osm-13946356836",
+    "categoria": "dea",
+    "nombre": "",
+    "tipo_recinto": "sin_clasificar",
+    "referencia": "",
+    "acceso": "",
+    "horario": "",
+    "osm_id": "node/13946356836",
+    "fuentes": [
+     "osm"
+    ],
+    "verificacion": {
+     "estado": "sin_verificar",
+     "confirmaciones": 0,
+     "reportes_ausencia": 0,
+     "ultima_confirmacion": null
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Material sin procesar que aún no está listo para publicar.
+# Los oficios deben pasar por anonimización antes de entrar al repo.
+datos/fuentes/transparencia/sin-anonimizar/
+datos/fuentes/instagram/descarga-original/
+*.tmp

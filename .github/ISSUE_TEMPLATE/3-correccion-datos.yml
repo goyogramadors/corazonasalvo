@@ -1,0 +1,53 @@
+name: "✏️ Corregir un dato del mapa"
+description: "Un punto tiene el nombre, la dirección o la ubicación equivocada."
+title: "[Corrección] "
+labels: ["correccion", "por-revisar"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Buena parte de los datos vienen del registro oficial, que a veces trae
+        direcciones imprecisas o coordenadas mal puestas. Ayudarnos a
+        corregirlos mejora el mapa para todos.
+
+  - type: input
+    id: identificador
+    attributes:
+      label: ¿Qué punto hay que corregir?
+      placeholder: "dea-cl-01234 — Hospital San Borja"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: problema
+    attributes:
+      label: ¿Qué está mal?
+      options:
+        - "La ubicación en el mapa (el pin está en otro lado)"
+        - "El nombre del recinto"
+        - "La dirección o comuna"
+        - "La referencia de dónde está dentro del recinto"
+        - "El horario o las condiciones de acceso"
+        - "Está duplicado (aparece dos veces)"
+        - "Otro"
+    validations:
+      required: true
+
+  - type: textarea
+    id: correccion
+    attributes:
+      label: ¿Cuál es el dato correcto?
+    validations:
+      required: true
+
+  - type: textarea
+    id: fuente
+    attributes:
+      label: ¿Cómo lo sabes?
+      description: |
+        Toda corrección necesita respaldo: una visita, una foto, un documento
+        oficial, el sitio web del recinto. No es desconfianza — es lo que hace
+        que esta base sea auditable.
+      placeholder: "Trabajo en el edificio y el equipo está en el hall, no en el estacionamiento."
+    validations:
+      required: true

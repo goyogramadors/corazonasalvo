@@ -1,0 +1,61 @@
+name: "✅ Confirmar o desmentir un DEA del mapa"
+description: "Fuiste a ver uno que ya está registrado. ¿Sigue ahí?"
+title: "[Verificación] "
+labels: ["verificacion", "por-revisar"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Verificar es tan importante como agregar. Un mapa que envía a alguien a
+        buscar un desfibrilador que ya no existe es peor que no tener mapa.
+
+        **Los reportes negativos son muy valiosos**: si fuiste y no lo
+        encontraste, cuéntanoslo.
+
+  - type: input
+    id: identificador
+    attributes:
+      label: ¿Qué punto verificaste?
+      description: |
+        Copia el identificador que aparece al hacer clic en el punto del mapa
+        (por ejemplo `dea-cl-01234`), o el nombre del lugar.
+      placeholder: "dea-cl-01234 — Mall Costanera Center"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: resultado
+    attributes:
+      label: ¿Qué encontraste?
+      options:
+        - "✅ Está ahí, tal como dice el mapa"
+        - "⚠️ Está, pero en otro lugar del recinto"
+        - "⚠️ Está, pero no se puede acceder (vitrina cerrada, sala privada, etc.)"
+        - "❌ Fui y no lo encontré"
+        - "❌ Me dijeron que ya no está o lo retiraron"
+    validations:
+      required: true
+
+  - type: input
+    id: fecha
+    attributes:
+      label: ¿Cuándo fuiste?
+      placeholder: "2026-08-08"
+    validations:
+      required: true
+
+  - type: textarea
+    id: detalle
+    attributes:
+      label: Cuéntanos más
+      description: |
+        Si está en otro lugar, dinos dónde exactamente. Si no lo encontraste,
+        cuéntanos qué buscaste y a quién preguntaste — a veces está pero no a la
+        vista.
+      placeholder: "El mapa decía primer piso, pero está en el subterráneo junto a los ascensores."
+
+  - type: textarea
+    id: foto
+    attributes:
+      label: Foto (opcional pero muy útil)
+      description: Arrastra la imagen acá. Autorizas su publicación bajo CC BY-SA 4.0.
