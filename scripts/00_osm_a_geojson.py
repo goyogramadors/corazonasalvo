@@ -51,7 +51,8 @@ def convertir(crudo):
                     "fuentes": ["osm"],
                     "verificacion": {
                         "estado": "sin_verificar",
-                        "confirmaciones": 0,
+                        # check_date es la fecha en que alguien revisó el equipo en terreno.
+                        "confirmaciones": 1 if etiquetas.get("check_date") else 0,
                         "reportes_ausencia": 0,
                         "ultima_confirmacion": etiquetas.get("check_date"),
                     },

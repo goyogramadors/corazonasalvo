@@ -80,10 +80,40 @@ def cargar(ruta):
     return json.loads(archivo.read_text(encoding="utf-8"))["features"]
 
 
-def fusionar(base, nuevo):
+def fusionar_verificacion(base, entrante, misma_fuente):
+    """Suma las confirmaciones de fuentes independientes y guarda la fecha más reciente.
+
+    Un duplicado dentro de la misma fuente suele ser la misma persona o el mismo
+    registro inscrito dos veces, así que no suma: se queda con el mayor.
+    """
+    destino = base.setdefault("verificacion", {})
+    origen = entrante.get("verificacion") or {}
+    for campo in ("confirmaciones", "reportes_ausencia"):
+        actual, otro = destino.get(campo) or 0, origen.get(campo) or 0
+        destino[campo] = max(actual, otro) if misma_fuente else actual + otro
+    fechas = [f for f in (destino.get("ultima_confirmacion"), origen.get("ultima_confirmacion")) if f]
+    destino["ultima_confirmacion"] = max(fechas) if fechas else None
+
+
+def estado_verificacion(verificacion):
+    """Deriva el estado desde los datos, para que no dependa de quién lo escribió.
+
+    Aquí no se calcula `desactualizado`: depende del día en que se mira, y este
+    archivo tiene que ser reproducible. Lo aplica 04_generar_web.py al publicar.
+    """
+    if verificacion.get("estado") == "reportado_inexistente":
+        return "reportado_inexistente"
+    if verificacion.get("ultima_confirmacion"):
+        return "verificado"
+    return "sin_verificar"
+
+
+def fusionar(base, nuevo, misma_fuente=False):
     """Agrega el nuevo rasgo al existente sin perder información."""
     propiedades = base["properties"]
     entrantes = nuevo["properties"]
+
+    fusionar_verificacion(propiedades, entrantes, misma_fuente)
 
     for fuente in entrantes.get("fuentes", []):
         if fuente not in propiedades["fuentes"]:
@@ -128,11 +158,12 @@ def main():
             if candidato:
                 # Si la fuente ya figuraba en el punto encontrado, es un duplicado
                 # dentro del mismo registro, no una confirmación independiente.
-                if etiqueta in candidato["properties"]["fuentes"]:
+                misma_fuente = etiqueta in candidato["properties"]["fuentes"]
+                if misma_fuente:
                     duplicados += 1
                 else:
                     fusionados += 1
-                fusionar(candidato, rasgo)
+                fusionar(candidato, rasgo, misma_fuente)
             else:
                 unificados.append(rasgo)
                 indice.setdefault(celda(coord), []).append(rasgo)
@@ -152,6 +183,8 @@ def main():
 
     for posicion, rasgo in enumerate(unificados, start=1):
         rasgo["properties"]["id"] = f"dea-cl-{posicion:05d}"
+        verificacion = rasgo["properties"]["verificacion"]
+        verificacion["estado"] = estado_verificacion(verificacion)
 
     salida = Path("datos/dea-chile.geojson")
     salida.write_text(

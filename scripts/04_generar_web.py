@@ -9,6 +9,7 @@ Uso:
 """
 
 import json
+from datetime import date, timedelta
 from pathlib import Path
 
 ENTRADA = Path("datos/dea-chile.geojson")
@@ -18,12 +19,25 @@ SALIDA = Path("web/datos/dea-chile.min.geojson")
 # ahorrar el peso de repetir 3.800 veces el nombre de cada campo.
 COLUMNAS = ["id", "nombre", "tipo", "referencia", "comuna", "direccion", "estado", "fuentes", "equipos"]
 
+# Una confirmación vale por un año; después el punto se muestra como antiguo.
+VIGENCIA = timedelta(days=365)
+
 # Códigos de una letra para las fuentes, por el mismo motivo.
 CLAVE_FUENTES = {"oficial:seremi-minsal": "o", "comunidad:instagram": "c", "osm": "m"}
 
 
+def estado_vigente(verificacion, hoy):
+    """Pasa a `desactualizado` lo verificado hace más de un año (ver datos/esquema.md)."""
+    estado = verificacion.get("estado") or "sin_verificar"
+    fecha = verificacion.get("ultima_confirmacion")
+    if estado == "verificado" and fecha and date.fromisoformat(fecha[:10]) < hoy - VIGENCIA:
+        return "desactualizado"
+    return estado
+
+
 def compactar():
     datos = json.loads(ENTRADA.read_text(encoding="utf-8"))
+    hoy = date.today()
     puntos = []
 
     for rasgo in datos["features"]:
@@ -40,7 +54,7 @@ def compactar():
                 p.get("referencia") or "",
                 p.get("comuna") or "",
                 p.get("direccion") or "",
-                (p.get("verificacion") or {}).get("estado") or "sin_verificar",
+                estado_vigente(p.get("verificacion") or {}, hoy),
                 "".join(CLAVE_FUENTES.get(f, "?") for f in p.get("fuentes", [])),
                 p.get("cantidad_equipos") or 0,
             ]
