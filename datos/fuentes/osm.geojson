@@ -1504,7 +1504,7 @@
     ],
     "verificacion": {
      "estado": "sin_verificar",
-     "confirmaciones": 0,
+     "confirmaciones": 1,
      "reportes_ausencia": 0,
      "ultima_confirmacion": "2025-11-05"
     }

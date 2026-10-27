@@ -62,6 +62,20 @@ Un punto puede tener varias. **Más fuentes independientes = más confianza.**
 | `desactualizado` | La última confirmación tiene más de 12 meses |
 | `reportado_inexistente` | Alguien fue y no lo encontró. Se mantiene visible y marcado, no se borra |
 
+Cómo se llenan estos campos:
+
+- `confirmaciones` cuenta las veces que alguien vio el equipo en persona. Cada
+  reporte de la comunidad suma una, aunque no tenga fecha. Al cruzar fuentes se
+  suman las de fuentes independientes; un duplicado dentro de la misma fuente no
+  suma.
+- `ultima_confirmacion` es la fecha más reciente de esas visitas. Los reportes
+  de Google My Maps no la traen, así que hoy casi todos los puntos la tienen
+  vacía.
+- `estado` lo calcula `03_cruzar_fuentes.py`: `verificado` si hay
+  `ultima_confirmacion`, si no `sin_verificar`. El paso a `desactualizado` lo
+  hace `04_generar_web.py` al publicar el mapa, porque depende del día en que se
+  mira y el dataset tiene que ser reproducible.
+
 Un punto no se elimina por un solo reporte negativo: se marca y queda para
 revisión. Borrar es la última acción, no la primera, porque un error de
 observación puede sacar del mapa un equipo que sí existe.

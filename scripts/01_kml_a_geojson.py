@@ -82,9 +82,12 @@ def convertir(ruta_kml):
                     "tipo_recinto": normalizar_tipo(dato_extendido(placemark, "Tipo")),
                     "referencia": descripcion,
                     "fuentes": ["comunidad:instagram"],
+                    # Cada punto es una persona que vio el equipo y lo reportó: cuenta
+                    # como confirmación. My Maps no guarda la fecha del reporte, así
+                    # que el estado queda sin_verificar hasta que alguien la aporte.
                     "verificacion": {
                         "estado": "sin_verificar",
-                        "confirmaciones": 0,
+                        "confirmaciones": 1,
                         "reportes_ausencia": 0,
                         "ultima_confirmacion": None,
                     },
